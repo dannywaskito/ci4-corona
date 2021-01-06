@@ -51,7 +51,8 @@
   <div class="row">
     <div class="col-md-12">
       <div class="alert alert-success" role="alert">Data Kasus Coronavirus di Indonesia Berdasarkan Provinsi</div>
-       <table id="table" class="table table-bordered table-striped" width="100%">
+      <div class="table-responsive">
+       <table class="table table-bordered" id="table" width="100%" cellspacing="0">
                <thead>
                    <tr>
                          <th class="text-center">No</th>
@@ -73,6 +74,7 @@
                <?php } ?> 
                </tbody>
            </table>
+         </div>
     </div>
   </div>
 </div>

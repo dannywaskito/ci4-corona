@@ -17,8 +17,7 @@
   <link rel="shortcut icon" href="<?= base_url()?>/assets/img/virus.png">
   <!-- Custom styles for this template-->
   <link href="<?= base_url()?>/assets/css/sb-admin-2.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="<?= base_url()?>/assets/css/datatables.min.css">
-  <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/sweetalert2.min.css">
+  <link href="<?=base_url() ?>/assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/assets/css/Animate.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
